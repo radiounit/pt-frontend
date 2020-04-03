@@ -30,7 +30,7 @@ const TrainingCalendar = props => {
         <div>
             <Calendar
                 localizer={localizer}
-                views={["week", "month"]}
+                views={["week", "month", "day"]}
                 events={events}
                 style={{ height: "80vh", padding: "20px"}}
             />
